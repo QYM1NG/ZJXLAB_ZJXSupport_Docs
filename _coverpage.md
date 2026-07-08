@@ -1,4 +1,4 @@
-<img src="images/zjx-logo.png" width="220" alt="logo">
+<img src="docspic/zjx-logo.png" width="220" alt="logo">
 
 # 熙总应援站
 
