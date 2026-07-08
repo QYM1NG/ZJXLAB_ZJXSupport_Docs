@@ -16,7 +16,7 @@
 
 - 爱听的歌曲类型:术力口，后朋克，欢快，清闲，流行
 
-  典型歌曲:[《NIGHT DANCER》](https://baike.baidu.com/item/NIGHT%20DANCER/6248228)[《テトリス》](https://mzh.moegirl.org.cn/TETORIS)[《Just The Two Of Us》](https://baike.baidu.com/item/just%20the%20two%20of%20us/16843578)
+  典型歌曲:[《NIGHT DANCER》](https://baike.baidu.com/item/NIGHT DANCER)[《テトリス》](https://mzh.moegirl.org.cn/TETORIS)[《Just The Two Of Us》](https://baike.baidu.com/item/just%20the%20two%20of%20us/16843578)
 
   
 
