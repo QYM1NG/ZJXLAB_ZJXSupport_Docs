@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+  <link rel="manifest" href="./manifest.json">
   <meta charset="UTF-8">
   <title>ZJX Support Docs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,18 +29,57 @@
 </style>
 <body>
   <div id="app">加载中...</div>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>ZJX Support Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="icon" type="image/x-icon" href="./zjx-webico.ico">
+  <link rel="manifest" href="./manifest.json">
+  <!-- 你的封面按钮样式等 -->
+  <style>
+    .cover-btn { ... }
+  </style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+
+  <!-- Docsify 配置 -->
   <script>
     window.$docsify = {
       name: 'ZJX Support Docs',
       coverpage: true,
       repo: 'https://github.com/QYM1NG/ZJXLAB_ZJXSupport_Docs',
-      basePath: '/ZJXLAB_ZJXSupport_Docs/',  // 重要！匹配你的仓库名
-      loadSidebar: true,       // 启用 _sidebar.md
+      basePath: '/ZJXLAB_ZJXSupport_Docs/',
+      loadSidebar: true,
       subMaxLevel: 3,
       search: {
         placeholder: '搜索文档',
         noData: '没有找到结果',
         paths: 'auto'
+      }
+    }
+  </script>
+
+  <!-- Docsify 核心库和插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- Service Worker 注册 -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then(reg => console.log('SW registered', reg))
+          .catch(err => console.log('SW failed', err));
+      });
+    }
+  </script>
+</body>
+</html>
+</script>
       }
     }
   </script>
