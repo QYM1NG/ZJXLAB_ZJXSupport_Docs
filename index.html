@@ -6,6 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
 </head>
+  <style>
+  /* 美化封面页的全部链接（即按钮） */
+  .cover .cover-main a {
+    display: inline-block;          /* 让链接可以设置宽高，像按钮一样排列 */
+    padding: 10px 24px;            /* 内边距，控制按钮大小 */
+    margin: 8px 6px;               /* 按钮之间的间距 */
+    border: 2px solid #42b983;     /* 边框颜色，可改成你喜欢的颜色 */
+    border-radius: 30px;           /* 圆角，数值越大越圆 */
+    color: #42b983;                /* 文字颜色，与边框同色或自定义 */
+    text-decoration: none;         /* 去掉下划线 */
+    font-weight: 500;              /* 字重，让文字稍粗一点 */
+    transition: all 0.3s ease;     /* 悬停动画，平滑过渡 */
+  }
+
+  /* 鼠标悬停时的按钮样式 */
+  .cover .cover-main a:hover {
+    background-color: #42b983;     /* 悬停时填充颜色 */
+    color: white;                  /* 悬停时文字变白 */
+  }
+</style>
 <body>
   <div id="app">加载中...</div>
   <script>
