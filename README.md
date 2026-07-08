@@ -4,3 +4,6 @@
 
 - [熙总介绍](zjxintroduce.md)
 - [熙总事件](zjxhappen.md)
+- [熙总美图](zjxpictures.md)
+- [熙总二创](zjxcreative.md)
+- [熙总神语](zjxcreative.md)
