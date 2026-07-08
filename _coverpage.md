@@ -13,4 +13,4 @@
 - 二次创作
 
 [GitHub](https://github.com/QYM1NG/ZJXLAB_ZJXSupport_Docs)
-[开始浏览](/)
+
