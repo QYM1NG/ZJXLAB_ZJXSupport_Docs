@@ -1,1 +1,26 @@
-
+{
+  "name": "熙总应援站",
+  "short_name": "熙总",
+  "start_url": "/ZJXLAB_ZJXSupport_Docs/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff69b4",
+  "description": "守护全世界最好的熙总",
+  "icons": [
+    {
+      "src": "/ZJXLAB_ZJXSupport_Docs/Applicationico/zjx-appicon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/ZJXLAB_ZJXSupport_Docs/Applicationico/zjx-appicon384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/ZJXLAB_ZJXSupport_Docs/Applicationico/zjx-appicon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
