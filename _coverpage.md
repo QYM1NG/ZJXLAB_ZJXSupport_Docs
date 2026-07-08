@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](images/zjx-logo.png)
+![logo](docspic/zjx-logo.png)
 
 # 熙总应援站 <small>
 
