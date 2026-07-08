@@ -2,7 +2,7 @@
 
 ![logo](docspic/zjx-logo.png)
 
-# 熙总应援站 <small>
+# 熙总应援站
 
 > 守护全世界最好的熙总
 
