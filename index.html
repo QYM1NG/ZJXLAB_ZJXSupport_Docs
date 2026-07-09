@@ -4,10 +4,15 @@
   <meta charset="UTF-8">
   <title>熙总应援站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Docsify 主题 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-  <!-- 网站图标（绝对路径） -->
+  
+  <!-- 标签页图标 -->
   <link rel="icon" type="image/x-icon" href="/ZJXLAB_ZJXSupport_Docs/zjx-weblogo.ico">
+
   <style>
+    /* ========== 封面按钮样式 ========== */
     .cover-btn {
       display: inline-block;
       padding: 10px 28px;
@@ -23,29 +28,31 @@
       background-color: #ff69b4;
       color: white;
     }
-    /* 光标（绝对路径） */
+
+    /* ========== 自定义光标 ========== */
     body {
       cursor: url('/ZJXLAB_ZJXSupport_Docs/kayoko-pointer-32.cur') 8 4, auto;
     }
     a, .cover-btn {
       cursor: url('/ZJXLAB_ZJXSupport_Docs/kayoko-pointer-32.cur') 8 4, pointer;
     }
-    /* ========== 封面背景图 ========== */
-.cover {
-  background: url('/ZJXLAB_ZJXSupport_Docs/docspic/zjxwelcome-background.png') center/cover no-repeat;
-  color: white; /* 如果背景较深，文字设白；如果背景较浅，可改为 #333 等深色 */
-}
 
-/* 可选：给文字区域加半透明遮罩，提高可读性（根据实际背景决定是否开启） */
-.cover .cover-main {
-  background: rgba(0, 0, 0, 0.4); /* 0.4 是透明度，可自己调 */
-  padding: 20px;
-  border-radius: 12px;
-}
+    /* ========== 封面背景（备用，可能被内联样式覆盖） ========== */
+    .cover {
+      background: url('/ZJXLAB_ZJXSupport_Docs/docspic/zjxwelcome-background.png') center/cover no-repeat !important;
+      color: white;
+    }
+    .cover .cover-main {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 12px;
+    }
   </style>
 </head>
 <body>
   <div id="app">加载中...</div>
+
+  <!-- Docsify 配置 -->
   <script>
     window.$docsify = {
       name: '熙总应援站',
@@ -54,7 +61,7 @@
       basePath: '/ZJXLAB_ZJXSupport_Docs/',
       loadSidebar: true,
       subMaxLevel: 3,
-      // relativePath 不写，默认 false（关闭）
+      // relativePath 默认 false（不写），所有资源用绝对路径
       search: {
         placeholder: '搜索文档',
         noData: '没有找到结果',
@@ -62,7 +69,24 @@
       }
     }
   </script>
+
+  <!-- Docsify 核心库与搜索插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- 强制替换封面背景（覆盖 Docsify 默认渐变） -->
+  <script>
+    (function() {
+      var observer = new MutationObserver(function(mutations) {
+        var cover = document.querySelector('.cover');
+        if (cover && cover.style.background.indexOf('linear-gradient') !== -1) {
+          cover.style.background = "url('/ZJXLAB_ZJXSupport_Docs/docspic/zjxwelcome-background.png') center/cover no-repeat";
+          cover.style.color = 'white';
+          observer.disconnect();
+        }
+      });
+      observer.observe(document.body, { childList: true, subtree: true });
+    })();
+  </script>
 </body>
 </html>
