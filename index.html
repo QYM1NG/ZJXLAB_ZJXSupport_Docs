@@ -16,22 +16,30 @@
   
   <!-- 封面按钮样式 -->
   <style>
-    .cover-btn {
-      display: inline-block;
-      padding: 10px 28px;
-      margin: 10px 6px;
-      border: 2px solid #ff69b4;
-      border-radius: 30px;
-      color: #ff69b4;
-      text-decoration: none;
-      font-weight: 600;
-      transition: all 0.3s ease;
-    }
-    .cover-btn:hover {
-      background-color: #ff69b4;
-      color: white;
-    }
-  </style>
+  .cover-btn {
+    display: inline-block;
+    padding: 10px 28px;
+    margin: 10px 6px;
+    border: 2px solid #ff69b4;
+    border-radius: 30px;
+    color: #ff69b4;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  .cover-btn:hover {
+    background-color: #ff69b4;
+    color: white;
+  }
+
+  /* 自定义光标 */
+  body {
+    cursor: url('./kayoko-pointer.ani'), auto;
+  }
+  a, .cover-btn {
+    cursor: url('./kayoko-pointer.ani'), pointer;
+  }
+</style>
 </head>
 <body>
   <div id="app">加载中...</div>
