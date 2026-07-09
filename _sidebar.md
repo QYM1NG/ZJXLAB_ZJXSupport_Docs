@@ -1,6 +1,7 @@
 - [🏠 首页](/) 
 - [✨ 熙总介绍](zjxintroduce)
 - [📌 熙总事件](zjxhappen)
+  - [第一期：迪迦守护神大战熙总](zjxhappen/EP01-迪迦守护神大战熙总)
 - [🖼️ 熙总美图](zjxpictures)
 - [🎨 熙总二创](zjxcreative)
 - [💬 熙总神语](zjxspeakerpro)
