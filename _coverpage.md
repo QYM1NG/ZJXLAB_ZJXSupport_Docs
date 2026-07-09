@@ -4,5 +4,5 @@
 
 > 守护全世界最好的熙总
 
-<a href="#/" class="cover-btn">开始浏览</a>
+<a href="#/README" class="cover-btn">开始浏览</a>
 <a href="https://github.com/QYM1NG/ZJXLAB_ZJXSupport_Docs" class="cover-btn" target="_blank">GitHub</a>
