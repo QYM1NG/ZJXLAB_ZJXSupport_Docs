@@ -1,4 +1,4 @@
-<img src="/ZJXLAB_ZJXSupport_Docs/ZJXLAB_ZJXSupport_Docs/docspic/zjx-logo.png" width="220" alt="logo">
+<img src="ZJXLAB_ZJXSupport_Docs/docspic/zjx-logo.png" width="220" alt="logo">
 
 # 熙总应援站
 
