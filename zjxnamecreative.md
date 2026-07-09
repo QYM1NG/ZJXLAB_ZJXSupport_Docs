@@ -2,4 +2,4 @@
 
 如果你觉得你最厨熙总，就可以选择这些搞基网名，小熙守护神有空时会更新一下😱😱
 
-- [第一期](zjxnamecreative/zjxname-01.md)
+- [第一期](#/zjxnamecreative/zjxname-01)
