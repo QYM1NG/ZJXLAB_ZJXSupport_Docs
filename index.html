@@ -30,6 +30,18 @@
     a, .cover-btn {
       cursor: url('/ZJXLAB_ZJXSupport_Docs/kayoko-pointer-32.cur') 8 4, pointer;
     }
+    /* ========== 封面背景图 ========== */
+.cover {
+  background: url('/ZJXLAB_ZJXSupport_Docs/docspic/zjxwelcome-background.png') center/cover no-repeat;
+  color: white; /* 如果背景较深，文字设白；如果背景较浅，可改为 #333 等深色 */
+}
+
+/* 可选：给文字区域加半透明遮罩，提高可读性（根据实际背景决定是否开启） */
+.cover .cover-main {
+  background: rgba(0, 0, 0, 0.4); /* 0.4 是透明度，可自己调 */
+  padding: 20px;
+  border-radius: 12px;
+}
   </style>
 </head>
 <body>
