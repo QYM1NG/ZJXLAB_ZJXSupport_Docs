@@ -5,7 +5,7 @@
   <title>熙总应援站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
-  <link rel="icon" type="image/x-icon" href="./zjx-weblogo.ico">
+  <link rel="icon" type="image/x-icon" href="/ZJXLAB_ZJXSupport_Docs/zjx-weblogo.ico">
   <style>
     .cover-btn {
       display: inline-block;
@@ -22,12 +22,12 @@
       background-color: #ff69b4;
       color: white;
     }
-    /* 光标（相对路径，因为 relativePath 对 CSS 不生效，这里用根目录相对 index.html 的路径） */
+    /* 光标绝对路径 */
     body {
-      cursor: url('./kayoko-pointer-32.cur') 8 4, auto;
+      cursor: url('/ZJXLAB_ZJXSupport_Docs/kayoko-pointer-32.cur') 8 4, auto;
     }
     a, .cover-btn {
-      cursor: url('./kayoko-pointer-32.cur') 8 4, pointer;
+      cursor: url('/ZJXLAB_ZJXSupport_Docs/kayoko-pointer-32.cur') 8 4, pointer;
     }
   </style>
 </head>
@@ -41,7 +41,7 @@
       basePath: '/ZJXLAB_ZJXSupport_Docs/',
       loadSidebar: true,
       subMaxLevel: 3,
-      relativePath: true,
+      // relativePath 默认 false，不写
       search: {
         placeholder: '搜索文档',
         noData: '没有找到结果',
