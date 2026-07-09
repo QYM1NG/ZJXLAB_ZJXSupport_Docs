@@ -4,4 +4,6 @@
 - [熙总美图](zjxpictures.md)
 - [熙总二创](zjxcreative.md)
 - [熙总神语](zjxspeakerpro.md)
-- [追熙网名](zjxnamecreative.md)
+- 追熙网名
+  - [📋 总览](zjxnamecreative.md)
+  - [第一期](zjxnamecreative/zjxname-01.md)
