@@ -16,6 +16,7 @@
   
   <!-- 封面按钮样式 -->
   <style>
+  /* ========== 封面按钮样式 ========== */
   .cover-btn {
     display: inline-block;
     padding: 10px 28px;
@@ -27,17 +28,21 @@
     font-weight: 600;
     transition: all 0.3s ease;
   }
+
   .cover-btn:hover {
     background-color: #ff69b4;
     color: white;
   }
 
-  /* 自定义光标 */
+
+  /* ========== 自定义光标（64×64 优先，32×32 回退） ========== */
   body {
-    cursor: url('./kayoko-pointer.ani'), auto;
+    cursor: url('./kayoko-pointer.cur') 32 32, url('./kayoko-pointer-32.cur') 16 16, auto;
   }
+
+  /* 链接和按钮也应用自定义光标 */
   a, .cover-btn {
-    cursor: url('./kayoko-pointer.ani'), pointer;
+    cursor: url('./kayoko-pointer.cur') 32 32, url('./kayoko-pointer-32.cur') 16 16, pointer;
   }
 </style>
 </head>
