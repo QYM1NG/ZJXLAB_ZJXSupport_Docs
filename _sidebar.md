@@ -5,7 +5,7 @@
 - [🖼️ 熙总美图](zjxpictures)
 - [🎨 熙总二创](zjxcreative)
   - [📝 同人文](zjxcreative/wordcreative)
-    - [第一期](zjxcreative/word/ep01)
+    - [EP01](zjxcreative/word/ep01)
   - [🎬 同人视频](zjxcreative/videocreative)
 - [💬 熙总神语](zjxspeakerpro)
 - 追熙网名
