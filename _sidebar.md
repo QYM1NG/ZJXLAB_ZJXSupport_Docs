@@ -4,6 +4,7 @@
   - [EP01：迪迦守护神大战熙总](zjxhappen/EP01-迪迦守护神大战熙总)
 - [🖼️ 熙总美图](zjxpictures)
 - [🎨 熙总二创](zjxcreative)
+  - [📝 同人文](zjxcreative/wordcreative)
 - [💬 熙总神语](zjxspeakerpro)
 - 追熙网名
   - [📋 总览](zjxnamecreative)
