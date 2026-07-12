@@ -5,6 +5,7 @@
 - [🖼️ 熙总美图](zjxpictures)
 - [🎨 熙总二创](zjxcreative)
   - [📝 同人文](zjxcreative/wordcreative)
+  - [🎬 同人视频](zjxcreative/videocreative)
 - [💬 熙总神语](zjxspeakerpro)
 - 追熙网名
   - [📋 总览](zjxnamecreative)
