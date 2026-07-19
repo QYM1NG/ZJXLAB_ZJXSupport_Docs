@@ -1,0 +1,17 @@
+{
+  "pages": [
+    { "title": "🏠 首页", "path": "README.md", "parent": null },
+    { "title": "✨ 熙总介绍", "path": "zjxintroduce.md", "parent": null },
+    { "title": "📌 熙总事件", "path": "zjxhappen.md", "parent": null },
+    { "title": "第一期：迪迦守护神大战熙总", "path": "zjxhappen/EP01-迪迦守护神大战熙总.md", "parent": "熙总事件" },
+    { "title": "🖼️ 熙总美图", "path": "zjxpictures.md", "parent": null },
+    { "title": "🎨 熙总二创", "path": "zjxcreative.md", "parent": null },
+    { "title": "📝 同人文", "path": "zjxcreative/wordcreative.md", "parent": "熙总二创" },
+    { "title": "第一期", "path": "zjxcreative/word/ep01.md", "parent": "同人文" },
+    { "title": "🎬 同人视频", "path": "zjxcreative/videocreative.md", "parent": "熙总二创" },
+    { "title": "💬 熙总神语", "path": "zjxspeakerpro.md", "parent": null },
+    { "title": "🎀 追熙网名", "path": "zjxnamecreative.md", "parent": null },
+    { "title": "📋 总览", "path": "zjxnamecreative.md", "parent": "追熙网名" },
+    { "title": "第一期", "path": "zjxnamecreative/zjxname-01.md", "parent": "追熙网名" }
+  ]
+}
