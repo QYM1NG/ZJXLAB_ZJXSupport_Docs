@@ -1,7 +1,28 @@
 {
-  "contents": [
-    "熙总站在山巅，望着远方的云海，心中充满了对未来的憧憬。",
-    "“我一定会成为最强训练师！”熙总握紧拳头，眼神坚定。",
-    "迪迦的光芒再次闪耀，守护着这座城市的和平。"
+  "tiles": [
+    {
+      "type": "image",
+      "content": "https://qym1ng.github.io/ZJXLAB_ZJXSupport_Docs/win10title/backtitle1.png"
+    },
+    {
+      "type": "text",
+      "content": "如果伊卡没在柚扣..."
+    },
+    {
+      "type": "image",
+      "content": "https://qym1ng.github.io/ZJXLAB_ZJXSupport_Docs/win10title/backtitle2.png"
+    },
+    {
+      "type": "text",
+      "content": "“Just the two of us”"
+    },
+    {
+      "type": "image",
+      "content": "https://qym1ng.github.io/ZJXLAB_ZJXSupport_Docs/win10title/backtitle3.png"
+    },
+    {
+      "type": "text",
+      "content": "嘎达嘎达……"
+    }
   ]
 }
