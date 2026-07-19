@@ -1,7 +1,7 @@
 {
   "tiles": [
     { "type": "image", "content": "https://qym1ng.github.io/ZJXLAB_ZJXSupport_Docs/win10title/backtitle1.png" },
-    { "type": "text",  "content": "人生有三不峻，那是三不峻呢？" },
+    { "type": "text",  "content": "人生有三不峻，那是哪三不峻呢？" },
     { "type": "image", "content": "https://qym1ng.github.io/ZJXLAB_ZJXSupport_Docs/win10title/backtitle2.png" },
     { "type": "text",  "content": "“Just the two of us.”" },
     { "type": "image", "content": "https://qym1ng.github.io/ZJXLAB_ZJXSupport_Docs/win10title/backtitle3.png" }
