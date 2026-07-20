@@ -2,4 +2,4 @@
 
 这里收录熙总的同人小说、短篇故事等，何时更新看小熙守护神。
 
-- [熙总同人文EP01](https://qym1ng.github.io/ZJXLAB_ZJXSupport_Docs/zjxcreative/word/EP01.md)
+- [熙总同人文EP01](word/EP01.md)
