@@ -7,7 +7,7 @@
     { "title": "熙总美图", "path": "zjxpictures.md", "parent": null },
     { "title": "熙总二创", "path": "zjxcreative.md", "parent": null },
     { "title": "同人文", "path": "zjxcreative/wordcreative.md", "parent": "熙总二创" },
-    { "title": "第一期", "path": "zjxcreative/word/ep01.md", "parent": "同人文" },
+    { "title": "第一期", "path": "zjxcreative/word/EP01.md", "parent": "同人文" },
     { "title": "同人视频", "path": "zjxcreative/videocreative.md", "parent": "熙总二创" },
     { "title": "熙总神语", "path": "zjxspeakerpro.md", "parent": null },
     { "title": "追熙网名", "path": "zjxnamecreative.md", "parent": null },
