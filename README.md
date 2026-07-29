@@ -8,3 +8,5 @@
 - [熙总二创](zjxcreative.md)
 - [熙总神语](zjxspeakerpro.md)
 - [追熙网名](zjxnamecreative.md)
+
+# 我们的应援口号是：“周四去吃肯唧唧，周五去吃峻熙熙”
